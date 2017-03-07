@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 
 import os
+import re
 import sys
 import json
 import linecache
@@ -13,6 +14,15 @@ def write2file(file_name, content):
 	file_object = open(file_name, 'a')
 	file_object.write(content)
 	file_object.close()
+
+
+def extract_ratio(desc):
+	pattern = re.compile(r'(\d+%)')
+	match = pattern.match(desc)
+	if match:
+		return match.group(1)
+	else:
+		return '2%'
 
 
 def flat_haoqiao_raw_data(data_line):
@@ -37,8 +47,9 @@ def flat_haoqiao_raw_data(data_line):
 		for hotel_info in json.loads(hotel_info_list):
 			for (k, v) in hotel_info.items():
 				if k.strip() == business_area_name.strip():
-					content = city_name + '\t' + city_link + '\t' + business_area_id + '\t' + business_area_name + '\t'
-					content = content + business_area_desc + '\t' + '####'.join(v) + '\n'
+					ratio = extract_ratio(business_area_desc)
+					content = city_name + '\t' + city_link + '\t' + business_area_name + '\t'
+					content = content + ratio + '\t' + '####'.join(v) + '\n'
 					write2file(haoqiao_step1_data_file, content)
 					break
 
