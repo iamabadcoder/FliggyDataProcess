@@ -2,23 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d314f8f-4800-4a0d-a2bd-319d89413fdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data_origin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/cache_util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/ctrip/ctrip_cities_mapping_data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/ctrip/ctrip_step2_data_file" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/fliggy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/fliggy/data_stat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_cities_mapping_data" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_match_process.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file_backup" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hotel_guide/ctrip_hotel_guide_data_step2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/ctrip_area_original.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/ctrip_area_step_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/ctrip_area_step_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/ctrip_area_step_3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/domestic_area_result.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/fliggy_area_data_original.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/haoqiao_area_data_process.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/haoqiao_area_data_process_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/haoqiao_area_data_process_3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/haoqiao_area_original.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/domestic_area/z_data_explore.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oversea_area/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oversea_area/ctrip_area_data_original.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/oversea_area/ctrip_area_data_step_1.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file_backup" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/business_area/ctrip/ctrip_business_area_data" afterPath="$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_original.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/business_area/ctrip/ctrip_raw_data_process.py" afterPath="$PROJECT_DIR$/oversea_area/ctrip_area_data_process.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/business_area/ctrip/ctrip_step1_data_file" afterPath="$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_step_1.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/business_area/ctrip/ctrip_step2_data_file" afterPath="$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_step_2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_raw_data_process.py" afterPath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_raw_data_process.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step1_data_file" afterPath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step1_data_file" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py" afterPath="$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_area/fliggy/data_stat.py" afterPath="$PROJECT_DIR$/business_area/fliggy/data_stat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data_origin" afterPath="$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data_origin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file" afterPath="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,24 +38,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$data_stat.coverage" NAME="data_stat Coverage Results" MODIFIED="1488442029592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/fliggy" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process__1_.coverage" NAME="ctrip_area_data_process (1) Coverage Results" MODIFIED="1489049189955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oversea_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process_new.coverage" NAME="ctrip_data_process_new Coverage Results" MODIFIED="1488177235879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_match_process.coverage" NAME="ctrip_match_process Coverage Results" MODIFIED="1488440792095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_raw_data_process.coverage" NAME="ctrip_raw_data_process Coverage Results" MODIFIED="1488268712022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$stat.coverage" NAME="stat Coverage Results" MODIFIED="1488177156283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process.coverage" NAME="haoqiao_area_data_process Coverage Results" MODIFIED="1489044050416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_raw_data_process.coverage" NAME="haoqiao_raw_data_process Coverage Results" MODIFIED="1488353808779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_match_process.coverage" NAME="haoqiao_match_process Coverage Results" MODIFIED="1488440942160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/haoqiao" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_data_process.coverage" NAME="haoqiao_data_process Coverage Results" MODIFIED="1487148941386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process.coverage" NAME="ctrip_data_process Coverage Results" MODIFIED="1487321955839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process.coverage" NAME="ctrip_area_data_process Coverage Results" MODIFIED="1489040383247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$mixed_data_process.coverage" NAME="mixed_data_process Coverage Results" MODIFIED="1487139505017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$fliggy_data_process.coverage" NAME="fliggy_data_process Coverage Results" MODIFIED="1487316252161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$data_stat.coverage" NAME="data_stat Coverage Results" MODIFIED="1489051958002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/fliggy" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$z_data_explore.coverage" NAME="z_data_explore Coverage Results" MODIFIED="1489052032239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process_3.coverage" NAME="haoqiao_area_data_process_3 Coverage Results" MODIFIED="1489044055804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_match_process.coverage" NAME="ctrip_match_process Coverage Results" MODIFIED="1489050637983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$stat.coverage" NAME="stat Coverage Results" MODIFIED="1488177156283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_match_process.coverage" NAME="haoqiao_match_process Coverage Results" MODIFIED="1488440942160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/haoqiao" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process.coverage" NAME="ctrip_data_process Coverage Results" MODIFIED="1487321955839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process_2.coverage" NAME="haoqiao_area_data_process_2 Coverage Results" MODIFIED="1489044053702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,36 +72,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>剑桥</find>
-      <find>NA</find>
-      <find>906354</find>
-      <find>利马</find>
-      <find>万荣赛</find>
-      <find>http://www.haoqiao.cn/naples_c341/</find>
-      <find>##</find>
-      <find>那不勒斯</find>
-      <find>那不勒斯 (佛罗里达州)</find>
-      <find>伦敦(及周边地区)</find>
-      <find>佛罗伦萨 (南卡罗来纳州)</find>
-      <find>905458</find>
-      <find>903767</find>
-      <find>马尔代夫(全区)</find>
-      <find>墨尔本 (佛罗里达州)</find>
-      <find>906048</find>
-      <find>亚历山大 (弗吉尼亚州)</find>
-      <find>皇后镇</find>
-      <find>亚历山大</find>
-      <find>罗马 (佐治亚州)</find>
-      <find>罗马</find>
-      <find>906602</find>
-      <find>凤凰城</find>
-      <find>凤凰城</find>
-      <find>\t凤凰城\t</find>
-      <find>凤凰城(及周边地区)</find>
-      <find>巴黎</find>
-      <find>902013</find>
       <find>http://you.ctrip.com/place/paris308.html</find>
       <find>906593</find>
+      <find>普吉岛</find>
+      <find>,,,,,</find>
+      <find>2%</find>
+      <find>,</find>
+      <find />
+      <find>亿友自助酒店式公寓</find>
+      <find>笃德堂客栈####西递旷古斋客栈</find>
+      <find>115</find>
+      <find>西湖景区及灵隐度假景区</find>
+      <find>西湖</find>
+      <find>杭州西湖区羽彤旅舍</find>
+      <find>上海</find>
+      <find>904</find>
+      <find>(</find>
+      <find>灵隐寺/虎跑/龙井</find>
+      <find>杭州国大雷迪森广场酒店</find>
+      <find>西安	临潼</find>
+      <find>西安	高新区</find>
+      <find>14505@@@@平遥古城</find>
+      <find>%</find>
+      <find>1097@@@@王府井商圈</find>
+      <find>上海远洋宾馆</find>
+      <find>北京</find>
+      <find>0.01</find>
+      <find>NA</find>
+      <find>match_cities</find>
+      <find>0%</find>
+      <find>25720</find>
     </findStrings>
     <replaceStrings>
       <replace>haoqiao</replace>
@@ -97,20 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hotel_guide/mixed_data_process.py" />
-        <option value="$PROJECT_DIR$/hotel_guide/haoqiao_hotel_guide_data_from_odps.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/haoqiao_hotel_guide_data.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/haoqiao_hotel_guide_data_setp1.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/cities_mapping.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/ctrip_hotel_guide_data_step1.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/haoqiao_data_process.py" />
-        <option value="$PROJECT_DIR$/hotel_guide/fliggy_data_process.py" />
-        <option value="$PROJECT_DIR$/hotel_guide/fliggy_zone_data_step1.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/ctrip_data_process.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/qyer/qyer_unmissable.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/ctrip_final_result.txt" />
-        <option value="$PROJECT_DIR$/hotel_guide/stat.py" />
         <option value="$PROJECT_DIR$/hotel_guide/ctrip_data_process_new.py" />
         <option value="$PROJECT_DIR$/hotel_guide/ctrip_hotel_guide_data_step2.txt" />
         <option value="$PROJECT_DIR$/business_area/raw_data_process.py" />
@@ -121,22 +123,47 @@
         <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_business_area_data" />
         <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_business_area_data" />
         <option value="$PROJECT_DIR$/business_area/haoqiao_step1_data_file" />
-        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_raw_data_process.py" />
-        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_step1_data_file" />
         <option value="$PROJECT_DIR$/business_area/ctrip/cities_mapping_data" />
         <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_final_result" />
         <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_raw_data_process.py" />
         <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step1_data_file" />
         <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_final_result.txt" />
         <option value="$PROJECT_DIR$/business_area/cache_util.py" />
-        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py" />
         <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_step2_data_file" />
-        <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_match_process.py" />
-        <option value="$PROJECT_DIR$/business_area/fliggy/data_stat.py" />
         <option value="$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data" />
         <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_cities_mapping_data" />
         <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_cities_mapping_data" />
+        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_original.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/data_explore.py" />
+        <option value="$PROJECT_DIR$/domestic_area/fliggy_area_data_original.py" />
+        <option value="$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data_origin" />
+        <option value="$PROJECT_DIR$/domestic_area/ctrip_area_original.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/ctrip_area_step_1.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/ctrip_area_step_2.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/fliggy_area_data_original.txt" />
+        <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_match_process.py" />
+        <option value="$PROJECT_DIR$/domestic_area/ctrip_area_step_3.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py" />
+        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_data_process_2.py" />
+        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_data_process_3.py" />
+        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_data_process.py" />
+        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_22.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_222.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_2.txt" />
+        <option value="$PROJECT_DIR$/domestic_area/domestic_area_result.txt" />
+        <option value="$PROJECT_DIR$/oversea_area/ctrip_area_data_original.txt" />
+        <option value="$PROJECT_DIR$/oversea_area/ctrip_area_data_step_1.txt" />
+        <option value="$PROJECT_DIR$/oversea_area/ctrip_area_data_process.py" />
+        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_step1_data_file" />
+        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_raw_data_process.py" />
+        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_step_1.txt" />
+        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_original.txt" />
+        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py" />
+        <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file_backup" />
         <option value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file" />
+        <option value="$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_step_2.txt" />
+        <option value="$PROJECT_DIR$/business_area/fliggy/data_stat.py" />
+        <option value="$PROJECT_DIR$/domestic_area/z_data_explore.py" />
       </list>
     </option>
   </component>
@@ -146,11 +173,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
     <option name="y" value="23" />
-    <option name="width" value="1385" />
-    <option name="height" value="877" />
+    <option name="width" value="1865" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -167,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,37 +211,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qyer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domestic_area" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,56 +226,21 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/business_area/ctrip" />
+      <recent name="$PROJECT_DIR$/domestic_area" />
+      <recent name="$PROJECT_DIR$/business_area/haoqiao" />
+      <recent name="$PROJECT_DIR$/hotel_guide" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oversea_area" />
       <recent name="$PROJECT_DIR$/business_area/fliggy" />
       <recent name="$PROJECT_DIR$/business_area/haoqiao" />
       <recent name="$PROJECT_DIR$/business_area/ctrip" />
       <recent name="$PROJECT_DIR$/business_area" />
-      <recent name="$PROJECT_DIR$/hotel_guide" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/business_area/haoqiao" />
-      <recent name="$PROJECT_DIR$/business_area/ctrip" />
-      <recent name="$PROJECT_DIR$/hotel_guide" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.data_stat">
-    <configuration default="false" name="haoqiao_raw_data_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/business_area" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_raw_data_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ctrip_raw_data_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/business_area/ctrip" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/business_area/ctrip/ctrip_raw_data_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.z_data_explore">
     <configuration default="false" name="ctrip_match_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,24 +259,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="haoqiao_match_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/business_area/haoqiao" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/business_area/haoqiao/haoqiao_match_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="data_stat" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,6 +273,24 @@
       <module name="FliggyDataProcess" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/business_area/fliggy/data_stat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="z_data_explore" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/domestic_area" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/domestic_area/z_data_explore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -540,20 +509,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.haoqiao_raw_data_process" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ctrip_raw_data_process" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ctrip_match_process" />
-      <item index="3" class="java.lang.String" itemvalue="Python.haoqiao_match_process" />
-      <item index="4" class="java.lang.String" itemvalue="Python.data_stat" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.ctrip_match_process" />
+      <item index="1" class="java.lang.String" itemvalue="Python.data_stat" />
+      <item index="2" class="java.lang.String" itemvalue="Python.z_data_explore" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.data_stat" />
-        <item index="1" class="java.lang.String" itemvalue="Python.haoqiao_match_process" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.z_data_explore" />
+        <item index="1" class="java.lang.String" itemvalue="Python.data_stat" />
         <item index="2" class="java.lang.String" itemvalue="Python.ctrip_match_process" />
-        <item index="3" class="java.lang.String" itemvalue="Python.haoqiao_raw_data_process" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ctrip_raw_data_process" />
       </list>
     </recent_temporary>
   </component>
@@ -589,31 +554,38 @@
       <option name="project" value="LOCAL" />
       <updated>1488287938490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix bug">
+      <created>1488852089342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488852089342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="23" width="1385" height="877" extended-state="6" />
+    <frame x="55" y="23" width="1865" height="1057" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19927798" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18659517" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43623483" sideWeight="0.50187665" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46782178" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.59615386" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16497976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15182187" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60931176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30364373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +598,8 @@
     <MESSAGE value="穷游不可错过抽取" />
     <MESSAGE value="修改文件名" />
     <MESSAGE value="好巧和携程酒店攻略数据匹配" />
-    <option name="LAST_COMMIT_MESSAGE" value="好巧和携程酒店攻略数据匹配" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,116 +624,17 @@
           <line>39</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/domestic_area/z_data_explore.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/business_area/fliggy/data_stat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_cities_mapping_data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="55" lean-forward="true" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data_origin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543280">
-          <caret line="27164" column="36" lean-forward="true" selection-start-line="27164" selection-start-column="32" selection-end-line="27164" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_step1_data_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
-          <caret line="185" column="64" lean-forward="true" selection-start-line="185" selection-start-column="60" selection-end-line="185" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotel_guide/haoqiao_hotel_guide_data.txt" />
-    <entry file="file://$PROJECT_DIR$/hotel_guide/haoqiao_hotel_guide_data_from_odps.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotel_guide/cities_mapping.txt" />
-    <entry file="file://$PROJECT_DIR$/hotel_guide/haoqiao_hotel_guide_data_setp1.txt" />
-    <entry file="file://$PROJECT_DIR$/hotel_guide/mixed_data_process.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctrip/ctrip_must_play_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qyer/qyer_unmissable.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qyer/qyer_unmissable_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotel_guide/haoqiao_hotel_guide_data_step1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14860">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotel_guide/stat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotel_guide/haoqiao_data_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mafengwo/mafengwo_highlight_extractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -769,20 +643,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/business_area/haoqiao_step1_data_file" />
-    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_business_area_data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_business_area_data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="190" column="755" lean-forward="false" selection-start-line="190" selection-start-column="755" selection-end-line="190" selection-end-column="755" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hotel_guide/ctrip_hotel_guide_data_step2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -825,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_raw_data_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hotel_guide/ctrip_data_process_new.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -855,76 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file_backup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_raw_data_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/business_area/cache_util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data_origin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6754" column="211" lean-forward="true" selection-start-line="6754" selection-start-column="211" selection-end-line="6754" selection-end-column="211" />
-        </state>
-      </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-433">
-          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_match_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="191" column="0" lean-forward="true" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_step2_data_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5480">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_cities_mapping_data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="107" column="50" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_cities_mapping_data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="127" column="42" lean-forward="false" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_step1_data_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="249" column="44" lean-forward="false" selection-start-line="249" selection-start-column="44" selection-end-line="249" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -935,24 +721,321 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_raw_data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="63" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/ctrip_area_original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="0" column="3572" lean-forward="true" selection-start-line="0" selection-start-column="698" selection-end-line="0" selection-end-column="3572" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.3/python_stubs/-2125986627/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="527" column="4" lean-forward="false" selection-start-line="527" selection-start-column="4" selection-end-line="527" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_cities_mapping_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="127" column="42" lean-forward="false" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_business_area_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/ctrip_area_step_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="5127" column="93" lean-forward="false" selection-start-line="5127" selection-start-column="78" selection-end-line="5127" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/ctrip_area_step_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_backup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="63" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_match_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/ctrip_area_step_3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_222.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_22.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_process_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="156" column="28" lean-forward="false" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="28" />
+          <folding>
+            <element signature="e#990#1937#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_process_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="136" column="27" lean-forward="true" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="93" />
+          <folding>
+            <element signature="e#990#1937#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/fliggy_area_data_original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118753">
+          <caret line="342" column="4" lean-forward="false" selection-start-line="342" selection-start-column="4" selection-end-line="342" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data_origin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37094" column="42" lean-forward="true" selection-start-line="37094" selection-start-column="42" selection-end-line="37094" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oversea_area/fliggy_area_data_original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="908" column="731" lean-forward="false" selection-start-line="908" selection-start-column="731" selection-end-line="908" selection-end-column="731" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/business_area/fliggy/fliggy_business_area_data">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1524">
-          <caret line="11924" column="130" lean-forward="true" selection-start-line="11924" selection-start-column="130" selection-end-line="11924" selection-end-column="130" />
+        <state relative-caret-position="1000">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oversea_area/ctrip_area_data_original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="190" column="1931" lean-forward="false" selection-start-line="190" selection-start-column="1931" selection-end-line="190" selection-end-column="1931" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oversea_area/ctrip_area_data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+          <folding>
+            <element signature="e#147#230#0" expanded="false" />
+            <element signature="e#270#1081#0" expanded="false" />
+            <element signature="e#1131#1264#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oversea_area/ctrip_area_data_step_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3244">
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="136" column="8" lean-forward="true" selection-start-line="136" selection-start-column="8" selection-end-line="149" selection-end-column="96" />
+          <folding>
+            <element signature="e#990#1937#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_raw_data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_cities_mapping_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="107" column="50" lean-forward="false" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="190" column="1931" lean-forward="false" selection-start-line="190" selection-start-column="1931" selection-end-line="190" selection-end-column="1931" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_step_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="797" column="42" lean-forward="true" selection-start-line="797" selection-start-column="42" selection-end-line="797" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/domestic_area_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file_backup">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_match_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="271" column="74" lean-forward="false" selection-start-line="271" selection-start-column="74" selection-end-line="271" selection-end-column="74" />
+          <folding>
+            <element signature="e#6392#7365#0" expanded="false" />
+            <element signature="e#7428#7574#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4898">
+          <caret line="294" column="0" lean-forward="true" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/business_area/haoqiao/haoqiao_step2_data_file">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="465" column="16" lean-forward="false" selection-start-line="465" selection-start-column="16" selection-end-line="465" selection-end-column="16" />
+        <state relative-caret-position="488">
+          <caret line="489" column="42" lean-forward="false" selection-start-line="489" selection-start-column="42" selection-end-line="489" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/ctrip/ctrip_area_data_step_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="315" column="35" lean-forward="false" selection-start-line="315" selection-start-column="35" selection-end-line="315" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/business_area/fliggy/domestic_area_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="582" column="24" lean-forward="true" selection-start-line="582" selection-start-column="24" selection-end-line="582" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/business_area/fliggy/data_stat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="439">
+          <caret line="30" column="46" lean-forward="false" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/z_data_explore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
