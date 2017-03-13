@@ -24,19 +24,44 @@ def avg_ratio(ratio_list):
 
 
 if __name__ == '__main__':
-	# domestic_area_result = 'domestic_area_result.txt'
-	oversea_area_result = '../business_area/fliggy/oversea_area_result.txt'
+	pass
 
-	area_list = []
-	city_list = []
-	for i in range(1, len(open(oversea_area_result, "rU").readlines()) + 1):
-		line = linecache.getline(oversea_area_result, i)
-		split_fields = line.split('\t')
-		area_list.append(split_fields[0])
-		city_list.append(split_fields[3])
-	print len(area_list)
-	print len(set(area_list))
-	print len(set(city_list))
+
+
+	# haoqiao_area_data_step_2 = 'haoqiao_area_data_step_2.txt'
+	# for i in range(1, len(open(haoqiao_area_data_step_2, "rU").readlines()) + 1):
+	# 	line = linecache.getline(haoqiao_area_data_step_2, i)
+	# 	splits = line.split('\t')
+	# 	content = '\t'.join(splits[0:5]) + '\t' + splits[6].split('@@@@')[0] + '\t' + splits[6].split('@@@@')[1]
+	# 	print content
+
+
+
+
+
+
+	# haoqiao_area_data_step_2 = 'haoqiao_area_data_step_2.txt'
+	# for i in range(1, len(open(haoqiao_area_data_step_2, "rU").readlines()) + 1):
+	# 	line = linecache.getline(haoqiao_area_data_step_2, i)
+	# 	split_fields = line.split('\t')
+	# 	content = '\t'.join(split_fields[0:5])
+	# 	print content
+
+
+
+	# domestic_area_result = 'domestic_area_result.txt'
+	# oversea_area_result = '../business_area/fliggy/oversea_area_result.txt'
+	#
+	# area_list = []
+	# city_list = []
+	# for i in range(1, len(open(oversea_area_result, "rU").readlines()) + 1):
+	# 	line = linecache.getline(oversea_area_result, i)
+	# 	split_fields = line.split('\t')
+	# 	area_list.append(split_fields[0])
+	# 	city_list.append(split_fields[3])
+	# print len(area_list)
+	# print len(set(area_list))
+	# print len(set(city_list))
 
 
 

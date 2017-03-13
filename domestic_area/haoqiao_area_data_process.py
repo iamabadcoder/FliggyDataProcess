@@ -12,9 +12,8 @@ sys.setdefaultencoding('utf8')
 
 
 def clean(hotel_name, city_name):
-	# replace stop words
 	hotel_name = hotel_name.replace(city_name, '').replace('大酒店', '').replace('酒店', '').replace('客栈', '')
-	hotel_name = hotel_name.replace('(', '').replace(')', '').strip()
+	hotel_name = hotel_name.replace('(', '').replace(')', '').replace('店', '').strip()
 	return hotel_name
 
 
@@ -39,7 +38,7 @@ def extract_ratio(desc):
 	if match:
 		return match.group(1)
 	else:
-		return '2%'
+		return '5%'
 
 
 def flat_haoqiao_data(data_line):
@@ -90,7 +89,7 @@ def match_hotels(hq_hotels, f_hotels, city_name):
 					matched_result = f_hotel.strip()
 				else:
 					matched_result = matched_result + '@@@@' + f_hotel.strip()
-				# break
+				break
 	return matched_count, matched_result
 
 
@@ -136,6 +135,7 @@ if __name__ == '__main__':
 
 		matched_hotels = {}
 		matched_hotels_detail = {}
+		matched_hotels_count = {}
 		if hq_city_name in init_fliggy_areas:
 			for zone_line in init_fliggy_areas[hq_city_name].split('#####BB#####'):
 				f_split_fields = zone_line.split('\t')
@@ -146,13 +146,16 @@ if __name__ == '__main__':
 				if matched_count / len(hq_hotel_list) >= 0.5:
 					matched_hotels[f_area_id + '@@@@' + f_area_name] = matched_count
 					matched_hotels_detail[f_area_id + '@@@@' + f_area_name] = matched_list
+					matched_hotels_count[f_area_id + '@@@@' + f_area_name] = matched_count
 
 			sorted_matched_hotels = sorted(matched_hotels, key=matched_hotels.get, reverse=True)
 			matched_f_areas = None
 			content = None
 			if len(sorted_matched_hotels) >= 1:
 				matched_f_areas = sorted_matched_hotels[0]
-				content = hq_city_name + '\t' + hq_area_name + '\t' + hq_area_ratio + '\t' + '@@@@'.join(hq_hotel_list) + '\t'
+				content = hq_city_name + '\t' + hq_area_name + '\t' + hq_area_ratio + '\t'
+				content = content + str(len(hq_hotel_list)) + '\t' + str(matched_hotels_count[sorted_matched_hotels[0]]) + '\t'
+				content = content + '@@@@'.join(hq_hotel_list) + '\t'
 				content = content + matched_f_areas + '\t' + matched_hotels_detail[sorted_matched_hotels[0]] + '\n'
 			# elif len(sorted_matched_hotels) > 1:
 			# 	matched_f_areas = sorted_matched_hotels[0] + '####' + sorted_matched_hotels[1]

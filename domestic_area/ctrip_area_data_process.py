@@ -87,5 +87,10 @@ if __name__ == '__main__':
 		# else:
 		# 	matched_f_areas = sorted_areas[0] + '####' + sorted_areas[1]
 		if matched_f_areas is not None:
-			content = c_city_name + '\t' + c_area_name + '\t' + c_ratio + '\t' + matched_f_areas + '\n'
-			write2file(ctrip_area_step_3, content)
+			content = c_city_name + '\t' + c_area_name + '\t' + c_ratio + '\t'
+			content = content + str(20) + '\t' + str(unsorted_area[matched_f_areas]) + '\t' + matched_f_areas
+			print content
+			# write2file(ctrip_area_step_3, content)
+
+			# content = c_city_name + '\t' + c_area_name + '\t' + c_ratio + '\t' + matched_f_areas + '\n'
+			# write2file(ctrip_area_step_3, content)
