@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d314f8f-4800-4a0d-a2bd-319d89413fdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/fliggy_scenics_original.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/mafengwo_top_scenics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/scenic_process.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/domestic_menpian_wanle_items.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/wan_le_step1.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/热门景点/match_result.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/热门景点/scenic_process.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +32,12 @@
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process.coverage" NAME="haoqiao_area_data_process Coverage Results" MODIFIED="1489116594180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_raw_data_process.coverage" NAME="haoqiao_raw_data_process Coverage Results" MODIFIED="1488353808779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_data_process.coverage" NAME="haoqiao_data_process Coverage Results" MODIFIED="1487148941386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$dang_di_wan_le_process.coverage" NAME="dang_di_wan_le_process Coverage Results" MODIFIED="1490275941660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process.coverage" NAME="ctrip_area_data_process Coverage Results" MODIFIED="1489372705881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$mixed_data_process.coverage" NAME="mixed_data_process Coverage Results" MODIFIED="1487139505017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$fliggy_data_process.coverage" NAME="fliggy_data_process Coverage Results" MODIFIED="1487316252161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$baidu_highlight_extractor.coverage" NAME="baidu_highlight_extractor Coverage Results" MODIFIED="1489469760243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$scenic_process.coverage" NAME="scenic_process Coverage Results" MODIFIED="1490104714761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$scenic_process.coverage" NAME="scenic_process Coverage Results" MODIFIED="1490269520146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$data_stat.coverage" NAME="data_stat Coverage Results" MODIFIED="1489051958002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/fliggy" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$z_data_explore.coverage" NAME="z_data_explore Coverage Results" MODIFIED="1489372058394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process_3.coverage" NAME="haoqiao_area_data_process_3 Coverage Results" MODIFIED="1489116602954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
@@ -57,36 +64,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>见</find>
-      <find>第一</find>
-      <find>第一版</find>
-      <find>&quot;key&quot;: &quot;s&quot;</find>
-      <find>（见第49页）</find>
-      <find>（见3页）</find>
-      <find>（见09页）</find>
-      <find>页）</find>
-      <find>(见04页)</find>
-      <find>（详见第10页）</find>
-      <find>页)</find>
-      <find>(详见第10页)</find>
-      <find>页</find>
-      <find>value&quot;: [ &quot;s&quot;]</find>
-      <find>0.0</find>
-      <find>迪拜</find>
-      <find>克什克腾旗</find>
-      <find>薰衣草的海洋</find>
-      <find>米兰</find>
-      <find>中国北纬30°左右，有</find>
-      <find>川藏南线十日</find>
-      <find>意大利的酒馆各有不同</find>
-      <find>意大利的酒馆各有不</find>
-      <find># 景点</find>
-      <find>景点</find>
-      <find>___op___景点</find>
-      <find>1973146</find>
       <find>南昌</find>
       <find>3000620</find>
       <find>1855401</find>
+      <find>1787122</find>
+      <find>日本</find>
+      <find>海外</find>
+      <find>695</find>
+      <find>泰国</find>
+      <find>新加坡</find>
+      <find>亚龙湾</find>
+      <find>纽约</find>
+      <find>三亚</find>
+      <find>深圳</find>
+      <find>爱丁堡</find>
+      <find>北京</find>
+      <find>106685085</find>
+      <find>99995885</find>
+      <find>东京</find>
+      <find>新加</find>
+      <find>海南天涯热带雨林博物馆</find>
+      <find>未匹配上未匹配上</find>
+      <find>未匹配上</find>
+      <find>福州</find>
+      <find>南京</find>
+      <find>first_step_match</find>
+      <find>风景区</find>
+      <find>西安</find>
+      <find>杭州</find>
+      <find>Z西安华清</find>
+      <find>NA</find>
     </findStrings>
     <replaceStrings>
       <replace>haoqiao</replace>
@@ -99,15 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domestic_area/haoqiao_area_data_step_2.txt" />
-        <option value="$PROJECT_DIR$/oversea_area/fliggy_area_data_original.txt" />
-        <option value="$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py" />
-        <option value="$PROJECT_DIR$/domestic_area/z_data_explore.py" />
-        <option value="$PROJECT_DIR$/当地玩乐/mafengwo_special_extractor.py" />
-        <option value="$PROJECT_DIR$/当地玩乐/qyer_unmissable.txt" />
-        <option value="$PROJECT_DIR$/当地玩乐/qyer_unmissable_extractor.py" />
-        <option value="$PROJECT_DIR$/当地玩乐/qyer_unmissable.json" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_must_play.py" />
         <option value="$PROJECT_DIR$/当地玩乐/baidu_unmissable_extractor.py" />
         <option value="$PROJECT_DIR$/当地玩乐/baidu_unmissable.json" />
         <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/仰光旅游攻略.html.md" />
@@ -148,8 +146,17 @@
         <option value="$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-川藏南线十日.html.md" />
         <option value="$PROJECT_DIR$/当地玩乐/baidu_highlight.json" />
         <option value="$PROJECT_DIR$/景点/mafengwo_sight_extractor.py" />
-        <option value="$PROJECT_DIR$/热门景点/scenic_process.py" />
+        <option value="$PROJECT_DIR$/热门景点/tmp_match_result.txt" />
         <option value="$PROJECT_DIR$/热门景点/match_result.txt" />
+        <option value="$PROJECT_DIR$/热门景点/final_result2.txt" />
+        <option value="$PROJECT_DIR$/热门景点/final_result.txt" />
+        <option value="$PROJECT_DIR$/热门景点/match_result_step3.txt" />
+        <option value="$PROJECT_DIR$/热门景点/match_result_step1.txt" />
+        <option value="$PROJECT_DIR$/热门景点/match_result_step2.txt" />
+        <option value="$PROJECT_DIR$/热门景点/match_result_step4.txt" />
+        <option value="$PROJECT_DIR$/热门景点/scenic_process.py" />
+        <option value="$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt" />
+        <option value="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
       </list>
     </option>
   </component>
@@ -165,10 +172,10 @@
     </layout>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
+    <option name="x" value="55" />
     <option name="y" value="23" />
-    <option name="width" value="1383" />
-    <option name="height" value="877" />
+    <option name="width" value="1865" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -241,7 +248,7 @@
       <recent name="$PROJECT_DIR$/hotel_guide" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scenic_process">
+  <component name="RunManager" selected="Python.dang_di_wan_le_process">
     <configuration default="false" name="ctrip_must_play_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,24 +285,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="baidu_unmissable_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当地玩乐" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当地玩乐/baidu_unmissable_extractor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="mafengwo_highlight_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,7 +316,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="FliggyDataProcess" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/热门景点/scenic_process.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="dang_di_wan_le_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/热门景点" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -549,17 +556,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.ctrip_must_play_extractor" />
       <item index="1" class="java.lang.String" itemvalue="Python.baidu_highlight_extractor" />
-      <item index="2" class="java.lang.String" itemvalue="Python.baidu_unmissable_extractor" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mafengwo_highlight_extractor" />
-      <item index="4" class="java.lang.String" itemvalue="Python.scenic_process" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mafengwo_highlight_extractor" />
+      <item index="3" class="java.lang.String" itemvalue="Python.scenic_process" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dang_di_wan_le_process" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.scenic_process" />
-        <item index="1" class="java.lang.String" itemvalue="Python.baidu_highlight_extractor" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mafengwo_highlight_extractor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ctrip_must_play_extractor" />
-        <item index="4" class="java.lang.String" itemvalue="Python.baidu_unmissable_extractor" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dang_di_wan_le_process" />
+        <item index="1" class="java.lang.String" itemvalue="Python.scenic_process" />
+        <item index="2" class="java.lang.String" itemvalue="Python.baidu_highlight_extractor" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mafengwo_highlight_extractor" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ctrip_must_play_extractor" />
       </list>
     </recent_temporary>
   </component>
@@ -654,31 +661,46 @@
       <option name="project" value="LOCAL" />
       <updated>1489469994345</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="热门景点数据">
+      <created>1490105214652</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1490105214652</updated>
+    </task>
+    <task id="LOCAL-00013" summary="热门景点数据">
+      <created>1490169722469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1490169722469</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="23" width="1383" height="877" extended-state="0" />
+    <frame x="55" y="23" width="1865" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15762834" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2155496" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579207" sideWeight="0.5034722" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.72648513" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39271256" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32054454" sideWeight="0.4965278" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26417005" sideWeight="0.4965278" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35020244" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2854251" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31275302" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3451417" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +720,8 @@
     <MESSAGE value="完成国内商圈的匹配" />
     <MESSAGE value="亮点数据抽取" />
     <MESSAGE value="删除多余的文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除多余的文件" />
+    <MESSAGE value="热门景点数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="热门景点数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -759,257 +782,34 @@
           <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="84" />
+      <option name="time" value="95" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/domestic_area/z_data_explore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/baidu_unmissable.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="413" column="38" lean-forward="true" selection-start-line="413" selection-start-column="38" selection-end-line="413" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-川藏南线十日.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/baidu_highlight.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="2390" column="14" lean-forward="true" selection-start-line="2390" selection-start-column="14" selection-end-line="2390" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/mafengwo_special.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="1300" column="18" lean-forward="false" selection-start-line="1299" selection-start-column="5" selection-end-line="1301" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/mafengwo_md/佛罗伦萨.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/qyer_md/穷游锦囊 - 下龙湾.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="110" column="10" lean-forward="false" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/qyer_md/穷游锦囊 - 不丹.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/qyer_md/穷游锦囊 - 东京.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="516" column="2" lean-forward="false" selection-start-line="516" selection-start-column="2" selection-end-line="516" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/qyer_md/穷游锦囊 - 东京动漫.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/qyer_md/穷游锦囊 - 东京周边.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/当地玩乐/qyer_md/穷游锦囊 - 丹麦.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="343" column="27" lean-forward="true" selection-start-line="343" selection-start-column="3" selection-end-line="343" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三亚.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三峡.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="74" column="2" lean-forward="false" selection-start-line="74" selection-start-column="2" selection-end-line="74" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三清山.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/上林.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="56" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/上海.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="67" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/下龙湾.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/不丹.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/京都.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚特兰大.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚庇.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/井冈山.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚历山大.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/五台山.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/云台山.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/云南.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/九寨沟.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/九华山.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乐山.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乐亭.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌鲁木齐.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌镇.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌代布尔.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丽江.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三亚.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三峡.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三清山.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/上林.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/上海.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/下龙湾.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/不丹.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/京都.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚特兰大.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚庇.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/井冈山.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚历山大.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/五台山.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/云台山.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/云南.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/九寨沟.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/九华山.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乐山.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乐亭.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌鲁木齐.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌镇.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌代布尔.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丽江.html.md" />
     <entry file="file://$PROJECT_DIR$/当地玩乐/baidu_unmissable_extractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1017,55 +817,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丙中洛.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东京.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="215" column="9" lean-forward="true" selection-start-line="215" selection-start-column="9" selection-end-line="215" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东极岛.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东莞.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丹东.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丹麦.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="155" column="7" lean-forward="false" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丽水.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="47" column="11" lean-forward="true" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丙中洛.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东京.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东极岛.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东莞.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丹东.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丹麦.html.md" />
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丽水.html.md" />
     <entry file="file://$PROJECT_DIR$/oversea_area/ctrip_area_data_process.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1073,19 +831,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_sight_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/景点/mafengwo_sight_extractor.py" />
     <entry file="file://$PROJECT_DIR$/当地玩乐/baidu_highlight_extractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,23 +847,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/fliggy_area_data_original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="880" column="10957" lean-forward="false" selection-start-line="880" selection-start-column="10957" selection-end-line="880" selection-end-column="10957" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/热门景点/fliggy_scenics_original.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/mafengwo_top_scenics.txt">
+    <entry file="file://$PROJECT_DIR$/热门景点/tmp_match_result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="2369" column="21" lean-forward="true" selection-start-line="2369" selection-start-column="21" selection-end-line="2369" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/scenic_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1122,6 +871,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/final_result2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/final_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848940">
+          <caret line="42447" column="30" lean-forward="true" selection-start-line="42447" selection-start-column="30" selection-end-line="42447" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-682262">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1216942">
+          <caret line="988" column="34" lean-forward="false" selection-start-line="988" selection-start-column="34" selection-end-line="988" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/domestic_menpian_wanle_items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="17552" column="24" lean-forward="true" selection-start-line="17552" selection-start-column="24" selection-end-line="17552" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/men_piao_scenic_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82801">
+          <caret line="11198" column="34" lean-forward="true" selection-start-line="11198" selection-start-column="34" selection-end-line="11198" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/wan_le_step1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="4672" column="25" lean-forward="true" selection-start-line="4672" selection-start-column="25" selection-end-line="4672" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/mafengwo_top_scenics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42160">
+          <caret line="2108" column="20" lean-forward="true" selection-start-line="2108" selection-start-column="20" selection-end-line="2108" selection-end-column="20" />
           <folding />
         </state>
       </provider>
