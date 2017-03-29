@@ -91,16 +91,25 @@ if __name__ == '__main__':
 		city_b = line_split_fields[1].strip()
 		similarity_value = line_split_fields[2].strip()
 
+		# 相同城市过滤掉
+		if city_a == city_b:
+			continue
+
 		# 过滤出国内城市
 		if city_a not in city_dict or city_b not in city_dict:
 			continue
 
 		# 过滤掉省份(一个城市和一个省份对比意义不大)
-		if city_a in province_dict.values() or city_b in province_dict.values():
-			continue
+		if city_a not in ['北京', '上海', '天津', '重庆'] and city_b not in ['北京', '上海', '天津', '重庆']:
+			if city_a in province_dict.values() or city_b in province_dict.values():
+				continue
 
-		pro_a_id = city_province_mapping_dict[city_dict[city_a]]
-		pro_b_id = city_province_mapping_dict[city_dict[city_b]]
+		city_a_id = city_dict[city_a]
+		city_b_id = city_dict[city_b]
+
+		pro_a_id = city_province_mapping_dict[city_a_id]
+		pro_b_id = city_province_mapping_dict[city_b_id]
+
 		if pro_a_id is None or pro_b_id is None:
 			print city_dict[city_a], city_dict[city_b]
 			continue
@@ -111,6 +120,9 @@ if __name__ == '__main__':
 			print pro_a_id, pro_b_id
 			continue
 		city_count_list.append(city_a)
-		content = city_a + '\t' + pro_a_name + '\t' + city_b + '\t' + pro_b_name + '\t' + similarity_value + '\n'
+		content = city_a_id + '\t' + city_a + '\t' + pro_a_id + '\t' + pro_a_name + '\t'
+		content = content + city_b_id + '\t' + city_b + '\t' + pro_b_id + '\t' + pro_b_name + '\t'
+		content = content + similarity_value + '\n'
+
 		write2file(file_similarity_step3, content)
 	print len(set(city_count_list))

@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d314f8f-4800-4a0d-a2bd-319d89413fdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/domestic_menpian_wanle_items.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/wan_le_step1.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/热门景点/match_result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/热门景点/scenic_process.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/fliggy_scenics.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mafengwo_scenics.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mdd_scenic_intermediate_data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic_sorted.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_process.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step3.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/data_stat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/mafengwo_oversea_scenics.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/mdd_oversea.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/tmp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/city_similarity/similarity_step3.txt" afterPath="$PROJECT_DIR$/city_similarity/similarity_step3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/city_similarity/z_data_stat.py" afterPath="$PROJECT_DIR$/city_similarity/z_data_stat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" afterPath="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" afterPath="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/热门景点/wan_le_step1.txt" afterPath="$PROJECT_DIR$/热门景点/wan_le_step1.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,29 +34,32 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FliggyDataProcess$qyer_unmissable_extractor.coverage" NAME="qyer_unmissable_extractor Coverage Results" MODIFIED="1489377365376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process__1_.coverage" NAME="ctrip_area_data_process (1) Coverage Results" MODIFIED="1489049189955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oversea_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$baidu_unmissable_extractor.coverage" NAME="baidu_unmissable_extractor Coverage Results" MODIFIED="1489392424242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process_new.coverage" NAME="ctrip_data_process_new Coverage Results" MODIFIED="1488177235879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$mafengwo_highlight_extractor.coverage" NAME="mafengwo_highlight_extractor Coverage Results" MODIFIED="1489469751861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_raw_data_process.coverage" NAME="ctrip_raw_data_process Coverage Results" MODIFIED="1488268712022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process.coverage" NAME="haoqiao_area_data_process Coverage Results" MODIFIED="1489116594180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_raw_data_process.coverage" NAME="haoqiao_raw_data_process Coverage Results" MODIFIED="1488353808779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_data_process.coverage" NAME="haoqiao_data_process Coverage Results" MODIFIED="1487148941386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$dang_di_wan_le_process.coverage" NAME="dang_di_wan_le_process Coverage Results" MODIFIED="1490275941660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process.coverage" NAME="ctrip_area_data_process Coverage Results" MODIFIED="1489372705881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$mixed_data_process.coverage" NAME="mixed_data_process Coverage Results" MODIFIED="1487139505017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$fliggy_data_process.coverage" NAME="fliggy_data_process Coverage Results" MODIFIED="1487316252161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$baidu_highlight_extractor.coverage" NAME="baidu_highlight_extractor Coverage Results" MODIFIED="1489469760243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$scenic_process.coverage" NAME="scenic_process Coverage Results" MODIFIED="1490269520146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$data_stat.coverage" NAME="data_stat Coverage Results" MODIFIED="1489051958002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/fliggy" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$z_data_stat.coverage" NAME="z_data_stat Coverage Results" MODIFIED="1490754472425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/city_similarity" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$z_data_explore.coverage" NAME="z_data_explore Coverage Results" MODIFIED="1489372058394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process_3.coverage" NAME="haoqiao_area_data_process_3 Coverage Results" MODIFIED="1489116602954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_match_process.coverage" NAME="ctrip_match_process Coverage Results" MODIFIED="1489050637983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$stat.coverage" NAME="stat Coverage Results" MODIFIED="1488177156283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_match_process.coverage" NAME="haoqiao_match_process Coverage Results" MODIFIED="1488440942160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/haoqiao" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process.coverage" NAME="ctrip_data_process Coverage Results" MODIFIED="1487321955839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process_2.coverage" NAME="haoqiao_area_data_process_2 Coverage Results" MODIFIED="1489116598538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_must_play_extractor.coverage" NAME="ctrip_must_play_extractor Coverage Results" MODIFIED="1489400205313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process__1_.coverage" NAME="ctrip_area_data_process (1) Coverage Results" MODIFIED="1489049189955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oversea_area" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1490586360304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process_new.coverage" NAME="ctrip_data_process_new Coverage Results" MODIFIED="1488177235879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$mafengwo_highlight_extractor.coverage" NAME="mafengwo_highlight_extractor Coverage Results" MODIFIED="1489469751861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_data_process.coverage" NAME="haoqiao_data_process Coverage Results" MODIFIED="1487148941386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$dang_di_wan_le_process.coverage" NAME="dang_di_wan_le_process Coverage Results" MODIFIED="1490325781818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process.coverage" NAME="ctrip_area_data_process Coverage Results" MODIFIED="1489372705881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$mixed_data_process.coverage" NAME="mixed_data_process Coverage Results" MODIFIED="1487139505017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$fliggy_data_process.coverage" NAME="fliggy_data_process Coverage Results" MODIFIED="1487316252161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$scenic_process.coverage" NAME="scenic_process Coverage Results" MODIFIED="1490326228179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$data_stat.coverage" NAME="data_stat Coverage Results" MODIFIED="1490323258990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process_3.coverage" NAME="haoqiao_area_data_process_3 Coverage Results" MODIFIED="1489116602954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_match_process.coverage" NAME="ctrip_match_process Coverage Results" MODIFIED="1489050637983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_match_process.coverage" NAME="haoqiao_match_process Coverage Results" MODIFIED="1488440942160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/haoqiao" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$scenic_match_process.coverage" NAME="scenic_match_process Coverage Results" MODIFIED="1490402349858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/top_scenic" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -64,36 +77,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>南昌</find>
-      <find>3000620</find>
-      <find>1855401</find>
-      <find>1787122</find>
-      <find>日本</find>
-      <find>海外</find>
-      <find>695</find>
-      <find>泰国</find>
-      <find>新加坡</find>
-      <find>亚龙湾</find>
-      <find>纽约</find>
+      <find>香港</find>
+      <find>810000</find>
+      <find>澳门</find>
+      <find>820000</find>
+      <find>100036</find>
+      <find>710000</find>
+      <find>台湾</find>
+      <find>11\d{5}</find>
+      <find>1001</find>
+      <find>900001</find>
+      <find>460000</find>
       <find>三亚</find>
-      <find>深圳</find>
-      <find>爱丁堡</find>
+      <find>150200</find>
+      <find>呼伦贝尔</find>
+      <find>呼和浩特</find>
+      <find>110100</find>
+      <find>110000</find>
+      <find>420000</find>
+      <find>610000</find>
+      <find>310000</find>
       <find>北京</find>
-      <find>106685085</find>
-      <find>99995885</find>
-      <find>东京</find>
-      <find>新加</find>
-      <find>海南天涯热带雨林博物馆</find>
-      <find>未匹配上未匹配上</find>
-      <find>未匹配上</find>
-      <find>福州</find>
+      <find>上海</find>
+      <find>乐山</find>
+      <find>乐山嘉阳国家矿山公园</find>
+      <find>万宁</find>
+      <find>齐齐哈尔</find>
+      <find>东莞</find>
       <find>南京</find>
-      <find>first_step_match</find>
-      <find>风景区</find>
       <find>西安</find>
-      <find>杭州</find>
-      <find>Z西安华清</find>
-      <find>NA</find>
+      <find>成都</find>
     </findStrings>
     <replaceStrings>
       <replace>haoqiao</replace>
@@ -106,25 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/当地玩乐/baidu_unmissable_extractor.py" />
-        <option value="$PROJECT_DIR$/当地玩乐/baidu_unmissable.json" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/仰光旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/台北旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/圣彼得堡旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/巴斯旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/布达佩斯旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/张家界旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/斯里兰卡旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/朱家角旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/约旦旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/舟山旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/赫尔辛基旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/马尔代夫旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_md/黄山旅游攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/ctrip_must_play_extractor.py" />
-        <option value="$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-香港攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-迪拜攻略.html.md" />
-        <option value="$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-赫尔辛基攻略.html.md" />
         <option value="$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-米兰攻略.html.md" />
         <option value="$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-福州攻略.html.md" />
         <option value="$PROJECT_DIR$/当地玩乐/baidu_md/百度旅游-槟城攻略.html.md" />
@@ -157,6 +151,25 @@
         <option value="$PROJECT_DIR$/热门景点/scenic_process.py" />
         <option value="$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt" />
         <option value="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
+        <option value="$PROJECT_DIR$/热门景点/data_stat.py" />
+        <option value="$PROJECT_DIR$/热门景点/wan_le_step1.txt" />
+        <option value="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" />
+        <option value="$PROJECT_DIR$/热门景点/match_result_step5.txt" />
+        <option value="$PROJECT_DIR$/top_scenic/scenic_match_step1.txt" />
+        <option value="$PROJECT_DIR$/top_scenic/scenic_match_process.py" />
+        <option value="$PROJECT_DIR$/热门景点/mdd_oversea.txt" />
+        <option value="$PROJECT_DIR$/热门景点/mafengwo_oversea_scenics.txt" />
+        <option value="$PROJECT_DIR$/热门景点/tmp.py" />
+        <option value="$PROJECT_DIR$/city_similarity/province.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/similarity_step2.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/province2code.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/city2code.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/province_city_mapping.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/similarity_step3.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/z_data_stat.py" />
+        <option value="$PROJECT_DIR$/top_scenic/tmp.txt" />
+        <option value="$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic_sorted.txt" />
+        <option value="$PROJECT_DIR$/top_scenic/mdd_scenic_intermediate_data.txt" />
       </list>
     </option>
   </component>
@@ -192,8 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,12 +227,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="热门景点" />
+              <option name="myItemId" value="top_scenic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,75 +247,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/city_similarity" />
+      <recent name="$PROJECT_DIR$/热门景点" />
       <recent name="$PROJECT_DIR$/当地玩乐" />
       <recent name="$PROJECT_DIR$/oversea_area" />
       <recent name="$PROJECT_DIR$/business_area/fliggy" />
-      <recent name="$PROJECT_DIR$/business_area/haoqiao" />
-      <recent name="$PROJECT_DIR$/business_area/ctrip" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/top_scenic" />
       <recent name="$PROJECT_DIR$/当地玩乐" />
       <recent name="$PROJECT_DIR$/domestic_area" />
       <recent name="$PROJECT_DIR$/business_area/ctrip" />
       <recent name="$PROJECT_DIR$/business_area/haoqiao" />
-      <recent name="$PROJECT_DIR$/hotel_guide" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dang_di_wan_le_process">
-    <configuration default="false" name="ctrip_must_play_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当地玩乐" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当地玩乐/ctrip_must_play_extractor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="baidu_highlight_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当地玩乐" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当地玩乐/baidu_highlight_extractor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="mafengwo_highlight_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/当地玩乐" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/当地玩乐/mafengwo_special_process.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.z_data_stat">
     <configuration default="false" name="scenic_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,6 +294,60 @@
       <module name="FliggyDataProcess" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="scenic_match_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/top_scenic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top_scenic/scenic_match_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/热门景点" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/热门景点/tmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="z_data_stat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/city_similarity" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/city_similarity/z_data_stat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -554,19 +567,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.ctrip_must_play_extractor" />
-      <item index="1" class="java.lang.String" itemvalue="Python.baidu_highlight_extractor" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mafengwo_highlight_extractor" />
-      <item index="3" class="java.lang.String" itemvalue="Python.scenic_process" />
-      <item index="4" class="java.lang.String" itemvalue="Python.dang_di_wan_le_process" />
+      <item index="0" class="java.lang.String" itemvalue="Python.scenic_process" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dang_di_wan_le_process" />
+      <item index="2" class="java.lang.String" itemvalue="Python.scenic_match_process" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tmp" />
+      <item index="4" class="java.lang.String" itemvalue="Python.z_data_stat" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.dang_di_wan_le_process" />
-        <item index="1" class="java.lang.String" itemvalue="Python.scenic_process" />
-        <item index="2" class="java.lang.String" itemvalue="Python.baidu_highlight_extractor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mafengwo_highlight_extractor" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ctrip_must_play_extractor" />
+        <item index="0" class="java.lang.String" itemvalue="Python.z_data_stat" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tmp" />
+        <item index="2" class="java.lang.String" itemvalue="Python.scenic_match_process" />
+        <item index="3" class="java.lang.String" itemvalue="Python.scenic_process" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dang_di_wan_le_process" />
       </list>
     </recent_temporary>
   </component>
@@ -675,24 +688,38 @@
       <option name="project" value="LOCAL" />
       <updated>1490169722469</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="热门景点数据">
+      <created>1490276102129</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1490276102129</updated>
+    </task>
+    <task id="LOCAL-00015" summary="城市相似度数据处理">
+      <created>1490692715899</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1490692715899</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1865" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2155496" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764075" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579207" sideWeight="0.5034722" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39271256" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.548583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26417005" sideWeight="0.4965278" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48785424" sideWeight="0.4965278" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2854251" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35323888" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3451417" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38945234" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -721,7 +748,8 @@
     <MESSAGE value="亮点数据抽取" />
     <MESSAGE value="删除多余的文件" />
     <MESSAGE value="热门景点数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="热门景点数据" />
+    <MESSAGE value="城市相似度数据处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="城市相似度数据处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -781,43 +809,22 @@
           <line>40</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/热门景点/data_stat.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/city_similarity/z_data_stat.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="95" />
+      <option name="time" value="105" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三亚.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三峡.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/三清山.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/上林.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/上海.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/下龙湾.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/不丹.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/京都.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚特兰大.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚庇.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/井冈山.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/亚历山大.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/五台山.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/云台山.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/云南.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/九寨沟.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/九华山.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乐山.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乐亭.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌鲁木齐.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌镇.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/乌代布尔.html.md" />
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丽江.html.md" />
-    <entry file="file://$PROJECT_DIR$/当地玩乐/baidu_unmissable_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/丙中洛.html.md" />
     <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东京.html.md" />
     <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东极岛.html.md" />
     <entry file="file://$PROJECT_DIR$/景点/mafengwo_md/东莞.html.md" />
@@ -854,64 +861,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/fliggy_scenics_original.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/tmp_match_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/match_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/final_result2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/final_result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848940">
-          <caret line="42447" column="30" lean-forward="true" selection-start-line="42447" selection-start-column="30" selection-end-line="42447" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682262">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/tmp_match_result.txt" />
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result.txt" />
+    <entry file="file://$PROJECT_DIR$/热门景点/final_result2.txt" />
+    <entry file="file://$PROJECT_DIR$/热门景点/final_result.txt" />
     <entry file="file://$PROJECT_DIR$/热门景点/match_result_step2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1216942">
           <caret line="988" column="34" lean-forward="false" selection-start-line="988" selection-start-column="34" selection-end-line="988" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,15 +876,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.3/python_stubs/-2125986627/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2503" column="6" lean-forward="false" selection-start-line="2503" selection-start-column="6" selection-end-line="2503" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11198" column="34" lean-forward="true" selection-start-line="11198" selection-start-column="34" selection-end-line="11198" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58023">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="42447" column="30" lean-forward="false" selection-start-line="42447" selection-start-column="30" selection-end-line="42447" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/data_stat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/wan_le_step1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101998">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/fliggy_scenics_original.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/match_result_step5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/热门景点/match_result_step4.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="17552" column="24" lean-forward="true" selection-start-line="17552" selection-start-column="24" selection-end-line="17552" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oversea_area/ctrip_area_data_step_1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/mdd_oversea.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="101" column="3" lean-forward="true" selection-start-line="101" selection-start-column="3" selection-end-line="101" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/mafengwo_top_scenics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287071">
+          <caret line="783" column="21" lean-forward="true" selection-start-line="783" selection-start-column="21" selection-end-line="783" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/热门景点/mafengwo_oversea_scenics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -935,38 +987,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/province.txt" />
+    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt">
+    <entry file="file://$PROJECT_DIR$/city_similarity/z_data_stat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82801">
-          <caret line="11198" column="34" lean-forward="true" selection-start-line="11198" selection-start-column="34" selection-end-line="11198" selection-end-column="34" />
+        <state relative-caret-position="480">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/wan_le_step1.txt">
+    <entry file="file://$PROJECT_DIR$/city_similarity/province_city_mapping.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="4672" column="25" lean-forward="true" selection-start-line="4672" selection-start-column="25" selection-end-line="4672" selection-end-column="25" />
+        <state relative-caret-position="276">
+          <caret line="26088" column="6" lean-forward="false" selection-start-line="26088" selection-start-column="0" selection-end-line="26088" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py">
+    <entry file="file://$PROJECT_DIR$/city_similarity/province2code.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="50" column="60" lean-forward="true" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        <state relative-caret-position="160">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/热门景点/mafengwo_top_scenics.txt">
+    <entry file="file://$PROJECT_DIR$/city_similarity/city2code.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42160">
-          <caret line="2108" column="20" lean-forward="true" selection-start-line="2108" selection-start-column="20" selection-end-line="2108" selection-end-column="20" />
+        <state relative-caret-position="276">
+          <caret line="826" column="2" lean-forward="false" selection-start-line="826" selection-start-column="0" selection-end-line="826" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="82" lean-forward="true" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/scenic_match_step2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/mafengwo_scenics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="695" column="13" lean-forward="true" selection-start-line="695" selection-start-column="13" selection-end-line="695" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/scenic_match_step3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="109" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="949" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/scenic_match_step1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="480" column="2" lean-forward="false" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/scenic_match_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="71" column="41" lean-forward="false" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/fliggy_scenics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="3380" column="18" lean-forward="false" selection-start-line="3380" selection-start-column="8" selection-end-line="3380" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="2117" column="0" lean-forward="false" selection-start-line="2117" selection-start-column="0" selection-end-line="2121" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/mdd_scenic_intermediate_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic_sorted.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="3884" column="2" lean-forward="false" selection-start-line="3884" selection-start-column="0" selection-end-line="3884" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/scenic_match_step4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="1406" column="2" lean-forward="false" selection-start-line="1406" selection-start-column="0" selection-end-line="1406" selection-end-column="2" />
           <folding />
         </state>
       </provider>

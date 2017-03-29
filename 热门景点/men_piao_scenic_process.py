@@ -196,6 +196,35 @@ def first_step_match():
 
 
 
+
+def output_clean_data():
+	city_scenic_list = []
+	scenic_count_dict = {}
+	for i in range(1, len(open(match_result_step4, "rU").readlines()) + 1):
+		line = linecache.getline(match_result_step4, i)
+		city_name = line.split('\t')[0].strip()
+		scenic_id = line.split('\t')[1].strip()
+		scenic_name = line.split('\t')[2].strip()
+		scenic_rank = line.split('\t')[3].strip()
+
+		if scenic_id != 'NA':
+			pri_key = city_name + scenic_id + scenic_name + scenic_rank
+			if pri_key not in city_scenic_list:
+				city_scenic_list.append(pri_key)
+				content = city_name + '\t' + scenic_id + '\t' + scenic_name + '\t' + scenic_rank + '\n'
+				write2file(match_result_step5, content)
+				if city_name not in scenic_count_dict:
+					scenic_count_dict[city_name] = [scenic_id]
+				else:
+					tmp = scenic_count_dict[city_name];
+					tmp.append(scenic_id)
+					scenic_count_dict[city_name] = tmp
+
+	for k, v in scenic_count_dict.items():
+		if len(set(v)) < 3:
+			print k, len(set(v))
+
+
 if __name__ == '__main__':
 	file_mafengwo_top_scenics = 'mafengwo_top_scenics.txt'
 	file_fliggy_scenics_original = 'fliggy_scenics_original.txt'
@@ -204,44 +233,13 @@ if __name__ == '__main__':
 	match_result_step2 = 'match_result_step2.txt'
 	match_result_step3 = 'match_result_step3.txt'
 	match_result_step4 = 'match_result_step4.txt'
+	match_result_step5 = 'match_result_step5.txt'
 
 	# first_step_match()
 	# clean_step1_data()
 	# join_files_by_titem_id()
 	# sort_result()
-
-
-
-	matched_city = {}
-	unmatched_city = {}
-	for i in range(1, len(open(match_result_step4, "rU").readlines()) + 1):
-		line = linecache.getline(match_result_step4, i)
-		split_fields = line.split('\t')
-		city_name =split_fields[0].strip()
-		scenic_id = split_fields[1].strip()
-		scenic_name = split_fields[2].strip()
-		scenic_rank = split_fields[3].strip()
-		item_title = split_fields[4].strip()
-
-		if item_title == '未匹配上':
-			if city_name in unmatched_city:
-				tmp = unmatched_city[city_name]
-				tmp.append(scenic_name)
-				unmatched_city[city_name] = tmp
-			else:
-				unmatched_city[city_name] = [scenic_name]
-
-		if city_name in matched_city:
-			tmp = matched_city[city_name]
-			tmp.append(scenic_name)
-			matched_city[city_name] = tmp
-		else:
-			matched_city[city_name] = [scenic_name]
-
-	for k, v in  matched_city.items():
-		print k, len(set(v)), len(set(v)) - len(set(unmatched_city[k]))
-
-
+	output_clean_data()
 
 	# city_name_list = []
 	# how_many_scenic = []

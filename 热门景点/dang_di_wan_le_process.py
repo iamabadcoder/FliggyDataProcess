@@ -53,7 +53,8 @@ if __name__ == '__main__':
 				item_province = wan_le_line.split('\t')[4].strip()
 				item_city = wan_le_line.split('\t')[5].strip()
 				if mafengwo_scenic_name in item_title:
-					content = item_city + '\t' + item_id + '\t' + mafengwo_scenic_name + '\t' + mafengwo_scenic_rank + '\n'
+					content = item_city + '\t' + item_id + '\t' + mafengwo_scenic_name + '\t' + mafengwo_scenic_rank + '\t'
+					content = content + item_title + '\n'
 					write2file(file_wan_le_step1, content)
 
 
