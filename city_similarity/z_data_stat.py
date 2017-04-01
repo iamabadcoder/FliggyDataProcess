@@ -99,10 +99,17 @@ if __name__ == '__main__':
 		if city_a not in city_dict or city_b not in city_dict:
 			continue
 
-		# 过滤掉省份(一个城市和一个省份对比意义不大)
-		if city_a not in ['北京', '上海', '天津', '重庆'] and city_b not in ['北京', '上海', '天津', '重庆']:
-			if city_a in province_dict.values() or city_b in province_dict.values():
+		if city_a in ['北京', '上海', '天津', '重庆']:
+			if city_b in province_dict.values() and city_b not in ['北京', '上海', '天津', '重庆']:
 				continue
+		elif city_a in province_dict.values():
+			continue
+
+		if city_b in ['北京', '上海', '天津', '重庆']:
+			if city_a in province_dict.values() and city_a not in ['北京', '上海', '天津', '重庆']:
+				continue
+		elif city_b in province_dict.values():
+			continue
 
 		city_a_id = city_dict[city_a]
 		city_b_id = city_dict[city_b]

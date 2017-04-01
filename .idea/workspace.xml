@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d314f8f-4800-4a0d-a2bd-319d89413fdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/fliggy_scenics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mafengwo_scenics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mdd_scenic_intermediate_data.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic_sorted.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_process.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step3.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/top_scenic/scenic_match_step4.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/data_stat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/mafengwo_oversea_scenics.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/match_result_step5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/mdd_oversea.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/热门景点/tmp.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/city_similarity/similarity_step3.txt" afterPath="$PROJECT_DIR$/city_similarity/similarity_step3.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/city_similarity/z_data_stat.py" afterPath="$PROJECT_DIR$/city_similarity/z_data_stat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" afterPath="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" afterPath="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/热门景点/wan_le_step1.txt" afterPath="$PROJECT_DIR$/热门景点/wan_le_step1.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +20,7 @@
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process.coverage" NAME="haoqiao_area_data_process Coverage Results" MODIFIED="1489116594180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_raw_data_process.coverage" NAME="haoqiao_raw_data_process Coverage Results" MODIFIED="1488353808779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$baidu_highlight_extractor.coverage" NAME="baidu_highlight_extractor Coverage Results" MODIFIED="1489469760243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$z_data_stat.coverage" NAME="z_data_stat Coverage Results" MODIFIED="1490754472425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/city_similarity" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$z_data_stat.coverage" NAME="z_data_stat Coverage Results" MODIFIED="1490856737353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/city_similarity" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$z_data_explore.coverage" NAME="z_data_explore Coverage Results" MODIFIED="1489372058394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$stat.coverage" NAME="stat Coverage Results" MODIFIED="1488177156283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process.coverage" NAME="ctrip_data_process Coverage Results" MODIFIED="1487321955839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
@@ -77,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>香港</find>
       <find>810000</find>
       <find>澳门</find>
       <find>820000</find>
@@ -94,11 +74,7 @@
       <find>呼和浩特</find>
       <find>110100</find>
       <find>110000</find>
-      <find>420000</find>
       <find>610000</find>
-      <find>310000</find>
-      <find>北京</find>
-      <find>上海</find>
       <find>乐山</find>
       <find>乐山嘉阳国家矿山公园</find>
       <find>万宁</find>
@@ -107,6 +83,11 @@
       <find>南京</find>
       <find>西安</find>
       <find>成都</find>
+      <find>上海</find>
+      <find>310000</find>
+      <find>420000</find>
+      <find>蚌埠</find>
+      <find>北京</find>
     </findStrings>
     <replaceStrings>
       <replace>haoqiao</replace>
@@ -165,11 +146,11 @@
         <option value="$PROJECT_DIR$/city_similarity/province2code.txt" />
         <option value="$PROJECT_DIR$/city_similarity/city2code.txt" />
         <option value="$PROJECT_DIR$/city_similarity/province_city_mapping.txt" />
-        <option value="$PROJECT_DIR$/city_similarity/similarity_step3.txt" />
-        <option value="$PROJECT_DIR$/city_similarity/z_data_stat.py" />
         <option value="$PROJECT_DIR$/top_scenic/tmp.txt" />
         <option value="$PROJECT_DIR$/top_scenic/mdd_scenic_quantity_domestic_sorted.txt" />
         <option value="$PROJECT_DIR$/top_scenic/mdd_scenic_intermediate_data.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/similarity_step3.txt" />
+        <option value="$PROJECT_DIR$/city_similarity/z_data_stat.py" />
       </list>
     </option>
   </component>
@@ -185,9 +166,9 @@
     </layout>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
+    <option name="x" value="57" />
     <option name="y" value="23" />
-    <option name="width" value="1865" />
+    <option name="width" value="1863" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -205,6 +186,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,24 +200,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="top_scenic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -702,32 +669,39 @@
       <option name="project" value="LOCAL" />
       <updated>1490692715899</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="top景点数据处理">
+      <created>1490776482691</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1490776482691</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="23" width="1865" height="1057" extended-state="6" />
+    <frame x="57" y="23" width="1863" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1764075" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16156736" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579207" sideWeight="0.5034722" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.548583" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19534414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48785424" sideWeight="0.4965278" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35323888" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38945234" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29826733" sideWeight="0.4965278" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38866398" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -749,7 +723,8 @@
     <MESSAGE value="删除多余的文件" />
     <MESSAGE value="热门景点数据" />
     <MESSAGE value="城市相似度数据处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="城市相似度数据处理" />
+    <MESSAGE value="top景点数据处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="top景点数据处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,11 +791,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/city_similarity/z_data_stat.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="104" />
+          <line>94</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/city_similarity/z_data_stat.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="105" />
+      <option name="time" value="112" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -991,58 +971,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/city_similarity/province.txt" />
-    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city_similarity/z_data_stat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city_similarity/province_city_mapping.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="26088" column="6" lean-forward="false" selection-start-line="26088" selection-start-column="0" selection-end-line="26088" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city_similarity/province2code.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/city_similarity/city2code.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="826" column="2" lean-forward="false" selection-start-line="826" selection-start-column="0" selection-end-line="826" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="15" column="82" lean-forward="true" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="695" column="13" lean-forward="true" selection-start-line="695" selection-start-column="13" selection-end-line="695" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="109" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="949" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,7 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="480" column="2" lean-forward="false" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="71" column="41" lean-forward="false" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="3380" column="18" lean-forward="false" selection-start-line="3380" selection-start-column="8" selection-end-line="3380" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="2117" column="0" lean-forward="false" selection-start-line="2117" selection-start-column="0" selection-end-line="2121" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="3884" column="2" lean-forward="false" selection-start-line="3884" selection-start-column="0" selection-end-line="3884" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1045,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="1406" column="2" lean-forward="false" selection-start-line="1406" selection-start-column="0" selection-end-line="1406" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/province2code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/city2code.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="586" column="10" lean-forward="false" selection-start-line="586" selection-start-column="4" selection-end-line="586" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/province_city_mapping.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26088" column="6" lean-forward="false" selection-start-line="26088" selection-start-column="0" selection-end-line="26088" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/z_data_stat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="267" column="29" lean-forward="false" selection-start-line="267" selection-start-column="29" selection-end-line="267" selection-end-column="29" />
         </state>
       </provider>
     </entry>
