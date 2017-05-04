@@ -28,7 +28,7 @@ def flat_ctrip_data(data_line):
 		elif i == 3:
 			hotel_info_list = split_fields[i].strip()
 
-	for area_info in json.loads(area_info_list):
+	for area_info in json.loads(area_info_list, separators=(',', ': ')):
 		area_link = area_info['businessAreaLink'].strip()
 		area_name = area_info['businessAreaName'].strip()
 		area_ratio = area_info['businessAreaRatio'].strip()

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d314f8f-4800-4a0d-a2bd-319d89413fdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ctrip_region_accommodation_strategy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ctrip_region_accommodation_strategy/accommodation_strategy_etl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ctrip_region_accommodation_strategy/region_accommodation_strategy.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tripadvisor/hotel_business_area.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tripadvisor/match_step_1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tripadvisor/match_step_2.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tripadvisor/oversea/md/土耳其.html.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tripadvisor/oversea/md/维也纳.html.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tripadvisor/oversea/html/巴黎.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tripadvisor/oversea/html/瑞士.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ctrip_scenic_desc_step1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aa.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature_info.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nanbeiyou_spider.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tripadvisor/oversea/html/法兰克福.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tripadvisor/oversea/html/艾伯塔.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tripadvisor/hotels_info.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py" afterPath="$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +24,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FliggyDataProcess$qyer_unmissable_extractor.coverage" NAME="qyer_unmissable_extractor Coverage Results" MODIFIED="1489377365376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$baidu_unmissable_extractor.coverage" NAME="baidu_unmissable_extractor Coverage Results" MODIFIED="1489392424242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
-    <SUITE FILE_PATH="coverage/FliggyDataProcess$accommodation_strategy_etl.coverage" NAME="accommodation_strategy_etl Coverage Results" MODIFIED="1492164280990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrip_region_accommodation_strategy" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$accommodation_strategy_etl.coverage" NAME="accommodation_strategy_etl Coverage Results" MODIFIED="1492164964474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctrip_region_accommodation_strategy" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_raw_data_process.coverage" NAME="ctrip_raw_data_process Coverage Results" MODIFIED="1488268712022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process.coverage" NAME="haoqiao_area_data_process Coverage Results" MODIFIED="1489116594180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_raw_data_process.coverage" NAME="haoqiao_raw_data_process Coverage Results" MODIFIED="1488353808779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area" />
@@ -39,9 +39,11 @@
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_must_play_extractor.coverage" NAME="ctrip_must_play_extractor Coverage Results" MODIFIED="1489400205313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process__1_.coverage" NAME="ctrip_area_data_process (1) Coverage Results" MODIFIED="1489049189955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oversea_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$baidu_parser.coverage" NAME="baidu_parser Coverage Results" MODIFIED="1491981314841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tripadvisor" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$nanbeiyou_spider2.coverage" NAME="nanbeiyou_spider2 Coverage Results" MODIFIED="1493776916510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1490586360304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_data_process_new.coverage" NAME="ctrip_data_process_new Coverage Results" MODIFIED="1488177235879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$mafengwo_highlight_extractor.coverage" NAME="mafengwo_highlight_extractor Coverage Results" MODIFIED="1489469751861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/当地玩乐" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$demo.coverage" NAME="demo Coverage Results" MODIFIED="1493863294409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_data_process.coverage" NAME="haoqiao_data_process Coverage Results" MODIFIED="1487148941386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hotel_guide" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$dang_di_wan_le_process.coverage" NAME="dang_di_wan_le_process Coverage Results" MODIFIED="1490325781818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_area_data_process.coverage" NAME="ctrip_area_data_process Coverage Results" MODIFIED="1489372705881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
@@ -53,6 +55,7 @@
     <SUITE FILE_PATH="coverage/FliggyDataProcess$data_stat.coverage" NAME="data_stat Coverage Results" MODIFIED="1490323258990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/热门景点" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_area_data_process_3.coverage" NAME="haoqiao_area_data_process_3 Coverage Results" MODIFIED="1489116602954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/domestic_area" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$ctrip_match_process.coverage" NAME="ctrip_match_process Coverage Results" MODIFIED="1489050637983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/ctrip" />
+    <SUITE FILE_PATH="coverage/FliggyDataProcess$nanbeiyou_spider.coverage" NAME="nanbeiyou_spider Coverage Results" MODIFIED="1493776910710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$haoqiao_match_process.coverage" NAME="haoqiao_match_process Coverage Results" MODIFIED="1488440942160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business_area/haoqiao" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$html_2_md_convertor.coverage" NAME="html_2_md_convertor Coverage Results" MODIFIED="1491982255005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tripadvisor" />
     <SUITE FILE_PATH="coverage/FliggyDataProcess$mafengwo_parser.coverage" NAME="mafengwo_parser Coverage Results" MODIFIED="1491805069387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tripadvisor" />
@@ -64,7 +67,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,21 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>可以参考TripAdvisor</find>
-      <find>住宿</find>
-      <find>丹的酒店类型是多种多</find>
-      <find>美食</find>
-      <find>### P14</find>
-      <find>见地图 E</find>
-      <find>见地图</find>
-      <find>见地图D</find>
-      <find>见地图E</find>
-      <find>行的时候行万不能购买的</find>
-      <find>######</find>
-      <find>如何选择适合您的住宿</find>
-      <find>estination&quot;: &quot;汉堡</find>
-      <find>ion&quot;: &quot;尼泊尔</find>
-      <find>ation&quot;: &quot;拉斯维加斯</find>
       <find>位于海滩附近,拥有一流的景观,酒 店装饰时尚典雅</find>
       <find>交通便利为考量</find>
       <find>若以景点为考量</find>
@@ -105,6 +93,21 @@
       <find>@@@@</find>
       <find>912130</find>
       <find>夏威夷</find>
+      <find>file_similarity_step3</find>
+      <find>json</find>
+      <find>flat_ctrip_data</find>
+      <find>&quot; &quot;</find>
+      <find>\n</find>
+      <find>卡斯蒂利亚-拉曼恰</find>
+      <find>托莱多大教堂</find>
+      <find>维罗纳</find>
+      <find>在”2017武汉东湖樱花节开幕</find>
+      <find>br</find>
+      <find>竹山</find>
+      <find>竹</find>
+      <find>扎囊</find>
+      <find>黄山市</find>
+      <find>science_list</find>
     </findStrings>
     <replaceStrings>
       <replace>haoqiao</replace>
@@ -117,17 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/热门景点/final_result2.txt" />
-        <option value="$PROJECT_DIR$/热门景点/final_result.txt" />
-        <option value="$PROJECT_DIR$/热门景点/match_result_step3.txt" />
-        <option value="$PROJECT_DIR$/热门景点/match_result_step1.txt" />
-        <option value="$PROJECT_DIR$/热门景点/match_result_step2.txt" />
-        <option value="$PROJECT_DIR$/热门景点/match_result_step4.txt" />
-        <option value="$PROJECT_DIR$/热门景点/scenic_process.py" />
-        <option value="$PROJECT_DIR$/热门景点/dang_di_wan_le_items.txt" />
-        <option value="$PROJECT_DIR$/热门景点/dang_di_wan_le_process.py" />
-        <option value="$PROJECT_DIR$/热门景点/data_stat.py" />
-        <option value="$PROJECT_DIR$/热门景点/wan_le_step1.txt" />
         <option value="$PROJECT_DIR$/热门景点/men_piao_scenic_process.py" />
         <option value="$PROJECT_DIR$/热门景点/match_result_step5.txt" />
         <option value="$PROJECT_DIR$/top_scenic/scenic_match_step1.txt" />
@@ -168,6 +160,17 @@
         <option value="$PROJECT_DIR$/tripadvisor/match_step_2.txt" />
         <option value="$PROJECT_DIR$/ctrip_region_accommodation_strategy/region_accommodation_strategy.txt" />
         <option value="$PROJECT_DIR$/ctrip_region_accommodation_strategy/accommodation_strategy_etl.py" />
+        <option value="$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py" />
+        <option value="$PROJECT_DIR$/ctrip_scenic_desc.txt" />
+        <option value="$PROJECT_DIR$/ctrip_scenic_desc_step1.txt" />
+        <option value="$PROJECT_DIR$/feature_info.txt" />
+        <option value="$PROJECT_DIR$/nanbeiyou_spider.py" />
+        <option value="$PROJECT_DIR$/nanbeiyou_spider2.py" />
+        <option value="$PROJECT_DIR$/feature_info2.txt" />
+        <option value="$PROJECT_DIR$/a.txt" />
+        <option value="$PROJECT_DIR$/aa.txt" />
+        <option value="$PROJECT_DIR$/ctrip_scenic_bright_result.txt" />
+        <option value="$PROJECT_DIR$/demo.py" />
       </list>
     </option>
   </component>
@@ -183,10 +186,10 @@
     </layout>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="239" />
-    <option name="y" value="1103" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="57" />
+    <option name="y" value="23" />
+    <option name="width" value="1863" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -203,6 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,38 +220,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tripadvisor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FliggyDataProcess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrip_region_accommodation_strategy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,76 +233,22 @@
     <property name="SearchEverywhereHistoryKey" value="柬埔寨.html.md&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/tripadvisor/oversea/md/柬埔寨.html.md&#10;骑行台湾&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/tripadvisor/domestic/骑行台湾.pdf&#10;佛罗伦萨&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/mafengwo_md/佛罗伦萨.html.md&#10;川藏南线十日&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-川藏南线十日.html.md&#10;乐亭&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-乐亭攻略.html.md&#10;伊犁&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-伊犁攻略.html.md&#10;台湾东部&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-台湾东部.html.md&#10;喀什&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-喀什攻略.html.md&#10;喀纳斯&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-喀纳斯攻略.html.md&#10;圣彼得堡&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-圣彼得堡攻略.html.md&#10;圣托里尼岛&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-圣托里尼岛攻略.html.md&#10;山西&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-山西攻略.html.md&#10;布达佩斯&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-布达佩斯攻略.html.md&#10;德里&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-德里攻略.html.md&#10;成都&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-成都攻略.html.md&#10;新源&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-新源攻略.html.md&#10;槟城&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-槟城攻略.html.md&#10;波兰&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-波兰攻略.html.md&#10;福州&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-福州攻略.html.md&#10;米兰&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-米兰攻略.html.md&#10;西雅图&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-西雅图攻略.html.md&#10;赫尔辛基&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-赫尔辛基攻略.html.md&#10;迪拜&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-迪拜攻略.html.md&#10;青岩古镇&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-青岩古镇攻略.html.md&#10;香港&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/baidu_md/百度旅游-香港攻略.html.md&#10;黄山&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/黄山旅游攻略.html.md&#10;马尔代夫&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/马尔代夫旅游攻略.html.md&#10;舟山&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/舟山旅游攻略.html.md&#10;约旦&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/约旦旅游攻略.html.md&#10;朱家角&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/朱家角旅游攻略.html.md&#10;斯里兰卡&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/斯里兰卡旅游攻略.html.md&#10;张家界&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/张家界旅游攻略.html.md&#10;巴斯&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/巴斯旅游攻略.html.md&#10;台北&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/台北旅游攻略.html.md&#10;仰光&#9;FILE&#9;file:///Users/caolei/PyWorkSpace/FliggyDataProcess/当地玩乐/ctrip_md/仰光旅游攻略.html.md" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/city_similarity" />
+      <recent name="$PROJECT_DIR$/ctrip_region_accommodation_strategy" />
+      <recent name="$PROJECT_DIR$/tripadvisor" />
+      <recent name="$PROJECT_DIR$/tripadvisor/oversea/html" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/tripadvisor/oversea/md_new" />
       <recent name="$PROJECT_DIR$/tripadvisor/oversea/ccdcd" />
       <recent name="$PROJECT_DIR$/tripadvisor/topic" />
       <recent name="$PROJECT_DIR$/tripadvisor/oversea/pdf_new" />
-      <recent name="$PROJECT_DIR$/tripadvisor/oversea/html" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ctrip_region_accommodation_strategy" />
-      <recent name="$PROJECT_DIR$/tripadvisor" />
-      <recent name="$PROJECT_DIR$/tripadvisor/oversea/html" />
-      <recent name="$PROJECT_DIR$/tripadvisor/oversea/test" />
-      <recent name="$PROJECT_DIR$/top_scenic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.accommodation_strategy_etl">
-    <configuration default="false" name="html_2_md_convertor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tripadvisor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tripadvisor/html_2_md_convertor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="accommodation_info_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tripadvisor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tripadvisor/accommodation_info_extractor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="hotels_info_extractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tripadvisor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FliggyDataProcess" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tripadvisor/hotels_info_extractor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.demo">
     <configuration default="false" name="match_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -360,6 +281,60 @@
       <module name="FliggyDataProcess" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctrip_region_accommodation_strategy/accommodation_strategy_etl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="nanbeiyou_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nanbeiyou_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="nanbeiyou_spider2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FliggyDataProcess" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nanbeiyou_spider2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -579,19 +554,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.html_2_md_convertor" />
-      <item index="1" class="java.lang.String" itemvalue="Python.accommodation_info_extractor" />
-      <item index="2" class="java.lang.String" itemvalue="Python.hotels_info_extractor" />
-      <item index="3" class="java.lang.String" itemvalue="Python.match_process" />
-      <item index="4" class="java.lang.String" itemvalue="Python.accommodation_strategy_etl" />
+      <item index="0" class="java.lang.String" itemvalue="Python.match_process" />
+      <item index="1" class="java.lang.String" itemvalue="Python.accommodation_strategy_etl" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.nanbeiyou_spider" />
+      <item index="4" class="java.lang.String" itemvalue="Python.nanbeiyou_spider2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.accommodation_strategy_etl" />
-        <item index="1" class="java.lang.String" itemvalue="Python.match_process" />
-        <item index="2" class="java.lang.String" itemvalue="Python.hotels_info_extractor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.accommodation_info_extractor" />
-        <item index="4" class="java.lang.String" itemvalue="Python.html_2_md_convertor" />
+        <item index="0" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nanbeiyou_spider2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nanbeiyou_spider" />
+        <item index="3" class="java.lang.String" itemvalue="Python.accommodation_strategy_etl" />
+        <item index="4" class="java.lang.String" itemvalue="Python.match_process" />
       </list>
     </recent_temporary>
   </component>
@@ -756,32 +731,39 @@
       <option name="project" value="LOCAL" />
       <updated>1492073054861</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="猫头鹰住宿数据处理">
+      <created>1492164431060</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1492164431060</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="1103" width="1440" height="877" extended-state="6" />
+    <frame x="57" y="23" width="1863" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2243693" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29579207" sideWeight="0.5034722" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6596535" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50303644" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28836635" sideWeight="0.30488458" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65789473" sideWeight="0.6951154" order="9" side_tool="true" content_ui="tabs" x="815" y="536" width="614" height="424" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4402834" sideWeight="0.6967257" order="9" side_tool="true" content_ui="tabs" x="815" y="536" width="614" height="424" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21862349" sideWeight="0.49812332" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4402834" sideWeight="0.3032743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47153464" sideWeight="0.41527778" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -880,107 +862,22 @@
           <line>86</line>
           <option name="timeStamp" value="107" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="129" />
+      <option name="time" value="137" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/澳门.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/花莲.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/花莲.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/澳门.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/台湾.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/台南.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/台北.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/台南.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/香港.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/香港.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/pdf_city_guide_detail_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/test/不丹.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/京都.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="475" column="17" lean-forward="false" selection-start-line="475" selection-start-column="7" selection-end-line="475" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/伊斯坦布尔.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="460" column="8" lean-forward="true" selection-start-line="460" selection-start-column="8" selection-end-line="460" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/不丹.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/mafengwo_md/不丹.html.md" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/mafengwo_parser.py" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/东京.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="738" column="125" lean-forward="true" selection-start-line="738" selection-start-column="125" selection-end-line="738" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/不丹.html.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="329" column="17" lean-forward="false" selection-start-line="329" selection-start-column="7" selection-end-line="329" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/土耳其.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/济州岛.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/艾伯塔.html" />
     <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/菲律宾.html" />
     <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/曼谷.html" />
     <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/柬埔寨.html" />
@@ -990,13 +887,6 @@
     <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/html/英国.html" />
     <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/ccdcd/马赛.html" />
     <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/ccdcd/西班牙.html" />
-    <entry file="file://$PROJECT_DIR$/tripadvisor/html_2_md_convertor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="278" column="0" lean-forward="true" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tripadvisor/accommodation_info_new.txt" />
     <entry file="file://$PROJECT_DIR$/tripadvisor/oversea/md/曼谷.html.md">
       <provider selected="true" editor-type-id="text-editor">
@@ -1005,24 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/accommodation_info_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="35" lean-forward="false" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tripadvisor/hotels_info_original.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/hotels_info_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="48" column="76" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -1068,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tripadvisor/hotels_info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="19" column="356" lean-forward="false" selection-start-line="19" selection-start-column="356" selection-end-line="19" selection-end-column="356" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tripadvisor/hotel_business_area.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1096,26 +965,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ctrip_region_accommodation_strategy/region_accommodation_strategy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="0" column="241" lean-forward="false" selection-start-line="0" selection-start-column="231" selection-end-line="0" selection-end-column="241" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ctrip_region_accommodation_strategy/region_accommodation_strategy_formated.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="117" lean-forward="false" selection-start-line="1" selection-start-column="117" selection-end-line="1" selection-end-column="117" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrip_region_accommodation_strategy/region_accommodation_strategy_formated.txt" />
+    <entry file="file://$PROJECT_DIR$/tripadvisor/hotels_info.txt" />
     <entry file="file://$PROJECT_DIR$/ctrip_region_accommodation_strategy/accommodation_strategy_etl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrip_region_accommodation_strategy/region_accommodation_strategy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="0" column="339" lean-forward="false" selection-start-line="0" selection-start-column="339" selection-end-line="0" selection-end-column="339" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/city_similarity.txt" />
+    <entry file="file://$PROJECT_DIR$/city_similarity/z_data_stat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1093">
+          <caret line="133" column="40" lean-forward="false" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/city_similarity/similarity_step3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205800">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/当地玩乐/ctrip_must_play_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tripadvisor/accommodation_info_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="36" column="48" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tripadvisor/hotels_info_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tripadvisor/html_2_md_convertor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="278" column="0" lean-forward="true" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top_scenic/scenic_match_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="368" column="0" lean-forward="false" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="337" column="0" lean-forward="false" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_area/ctrip_area_data_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="1722" column="3" lean-forward="true" selection-start-line="1722" selection-start-column="3" selection-end-line="1722" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/bs4/dammit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanbeiyou_spider2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nanbeiyou_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_info2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2840">
+          <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_info1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="3" column="143" lean-forward="false" selection-start-line="3" selection-start-column="128" selection-end-line="3" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aa.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="189" column="511" lean-forward="false" selection-start-line="189" selection-start-column="511" selection-end-line="189" selection-end-column="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrip_scenic_bright.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16279">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="365" column="458" lean-forward="false" selection-start-line="365" selection-start-column="458" selection-end-line="365" selection-end-column="458" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrip_scenic_desc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="547" column="934" lean-forward="false" selection-start-line="547" selection-start-column="934" selection-end-line="547" selection-end-column="935" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrip_scenic_bright_final.txt" />
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrip_scenic_desc_step1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ctrip_scenic_bright_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="472" column="3" lean-forward="false" selection-start-line="472" selection-start-column="3" selection-end-line="472" selection-end-column="3" />
           <folding />
         </state>
       </provider>
